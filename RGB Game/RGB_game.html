@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="RGB_game.css">
+    <title>RGB_game</title>
+</head>
+
+<body>
+    <div class="para">
+        <p>The Great</p>
+        <b>
+            <p><span id="rgb_color">RGB(0, 0, 0)</span></p>
+        </b>
+        <p>Guessing Game</p>
+    </div>
+    <div class="row stripe">
+        <div class="col-4"><button type="reset" class="btn btn-light" id="reset"><span id="again">NEW
+                    COLORS</span></button></div>
+        <div class="col-3 message"><span id="status"></span></div>
+        <div class="col-2 text-right"><button class="btn btn-light easy">EASY</button></div>
+        <div class="col-2 text-left"><button class="btn btn-light seleted hard">HARD</button></div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="square "></div>
+            <div class="square "></div>
+            <div class="square "></div>
+            <div class="square "></div>
+            <div class="square "></div>
+            <div class="square "></div>
+        </div>
+    </div>
+    <script src="RGB_game.js"></script>
+</body>
+
+</html>

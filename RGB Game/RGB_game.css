@@ -1,0 +1,53 @@
+body{
+    background-color: #232323;
+    color: aliceblue;
+
+}
+.square{
+    width: 30%;
+    padding-bottom: 25%;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition: background, 0.5s;
+
+}
+.container{
+    max-width: 60%;
+    margin: 15px auto;
+}
+.para{
+    text-align: center;
+    background-color: steelblue;
+    height: 100px;
+    font-size: large;
+    transition: background, 0.7s;
+}
+#rgb_color{
+    text-transform: uppercase;
+    font-size: x-large;
+}
+.stripe{
+    background-color: white;
+    text-align: center;
+    color: black;
+    margin: auto;
+}
+.seleted{
+    color: aliceblue!important;
+    background-color: rgba(0, 0, 255, 0.568)!important;
+}
+p{
+    margin-bottom: 0;
+}
+
+button:hover {
+    color: white!important;
+    background-color:  rgba(0, 0, 255, 0.568)!important;
+    transition: all, 0.5s;
+}
+#status{
+    font-weight: 500;
+}
+.message{
+    margin: auto;
+}
